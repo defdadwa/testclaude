@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SAMPLE fixture for offline testing only. These are fabricated, illustrative
+     headlines in the Techmeme feed shape; they are NOT live Techmeme data. -->
+<rss version="2.0">
+  <channel>
+    <title>Techmeme (SAMPLE)</title>
+    <link>https://www.techmeme.com/</link>
+    <description>Fabricated sample for testing techmeme_dlg.py</description>
+    <item>
+      <title>OpenAI: ChatGPT search now answers shopping queries with product cards and merchant links</title>
+      <link>https://example.com/openai-chatgpt-shopping</link>
+      <description>The feature surfaces products directly in answers, raising new questions for brand visibility and SEO.</description>
+      <pubDate>Fri, 25 Jul 2026 12:10:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Information: LVMH is testing a genAI assistant for Louis Vuitton clienteling in flagship stores</title>
+      <link>https://example.com/lvmh-genai-clienteling</link>
+      <description>The pilot pairs sales associates with an AI assistant trained on product and client history.</description>
+      <pubDate>Fri, 25 Jul 2026 11:40:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Reuters: Google expands AI Overviews to more commercial queries, publishers report further traffic declines</title>
+      <link>https://example.com/google-ai-overviews-commercial</link>
+      <description>Zero-click behavior deepens as AI Overviews cover shopping and comparison intent.</description>
+      <pubDate>Fri, 25 Jul 2026 11:05:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bloomberg: TikTok Shop rolls out livestream resale for pre-owned luxury handbags in the EU</title>
+      <link>https://example.com/tiktok-shop-resale</link>
+      <description>Sellers can authenticate and list secondhand designer goods during live sessions.</description>
+      <pubDate>Fri, 25 Jul 2026 10:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>TechCrunch: Perplexity launches a shopping answer engine with affiliate checkout</title>
+      <link>https://example.com/perplexity-shopping</link>
+      <description>Users can buy inside Perplexity answers; merchants get a new answer-engine surface.</description>
+      <pubDate>Fri, 25 Jul 2026 09:50:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>WSJ: The RealReal and Vestiaire Collective report record demand for authenticated watches</title>
+      <link>https://example.com/resale-watches-demand</link>
+      <description>Secondary-market watch listings and prices climb as buyers hunt for discontinued references.</description>
+      <pubDate>Fri, 25 Jul 2026 09:15:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CNBC: Alibaba's Tmall Luxury Pavilion adds AI styling and virtual try-on for China shoppers</title>
+      <link>https://example.com/tmall-luxury-ai</link>
+      <description>The move targets high-net-worth Chinese consumers with an AI-assisted storefront.</description>
+      <pubDate>Fri, 25 Jul 2026 08:45:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Verge: Meta rolls out new Instagram Reels ranking that favors original creator content</title>
+      <link>https://example.com/instagram-reels-ranking</link>
+      <description>Brands relying on reposted content may see reach fall under the new algorithm.</description>
+      <pubDate>Fri, 25 Jul 2026 08:10:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ars Technica: EU's Digital Markets Act enforcement forces changes to ad measurement APIs</title>
+      <link>https://example.com/dma-ad-measurement</link>
+      <description>Attribution and first-party data workflows face new constraints for advertisers in the EU.</description>
+      <pubDate>Fri, 25 Jul 2026 07:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic: Claude adds native support for connecting company data via MCP servers</title>
+      <link>https://example.com/claude-mcp-connectors</link>
+      <description>Enterprises can now attach proprietary datasets to Claude through the Model Context Protocol.</description>
+      <pubDate>Fri, 25 Jul 2026 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tom's Hardware: Nvidia announces next-gen data center GPU with higher memory bandwidth</title>
+      <link>https://example.com/nvidia-datacenter-gpu</link>
+      <description>The new chip targets large-scale AI training clusters and cloud providers.</description>
+      <pubDate>Fri, 25 Jul 2026 06:20:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CoinDesk: Bitcoin price swings as traders weigh new ETF inflows</title>
+      <link>https://example.com/bitcoin-price</link>
+      <description>Volatility returns to crypto markets amid macro uncertainty.</description>
+      <pubDate>Fri, 25 Jul 2026 05:40:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Register: Kubernetes 1.34 released with improved DevOps tooling and open source license clarifications</title>
+      <link>https://example.com/kubernetes-134</link>
+      <description>The update focuses on cluster operations for platform engineering teams.</description>
+      <pubDate>Fri, 25 Jul 2026 05:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Business of Fashion: Pinterest rolls out shoppable AI mood boards for fashion and home</title>
+      <link>https://example.com/pinterest-shoppable-ai</link>
+      <description>The feature turns curated boards into direct-to-checkout collections for brands.</description>
+      <pubDate>Fri, 25 Jul 2026 04:20:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
