@@ -1,0 +1,74 @@
+{
+  "_comment": "DLG / LuxuryIQ relevance model for Techmeme headlines. Edit weights and keywords to tune. A headline's score is the sum of the weights of every theme it matches; matching a theme also attaches that theme's DLG angle and suggestion seed. Keywords are matched case-insensitively as whole-ish tokens against the headline + summary text.",
+  "thresholds": {
+    "high": 6,
+    "medium": 3
+  },
+  "themes": [
+    {
+      "id": "ai_genai",
+      "label": "AI / generative models / agents",
+      "weight": 4,
+      "keywords": ["generative ai", "genai", "llm", "large language model", "chatgpt", "gpt-5", "gpt-4", "openai", "anthropic", "claude", "gemini", "copilot", "mistral", "llama", "ai agent", "agentic", "ai model", "foundation model", "mcp", "model context protocol", "multimodal", "ai assistant", "prompt"],
+      "dlg_angle": "LuxuryIQ ships as an MCP server and DLG advises brands on where genAI touches the customer journey; capability and platform shifts here change what we can build and sell.",
+      "idea": "Assess whether this changes the LuxuryIQ MCP roadmap or gives a concrete talking point for the next brand AI-readiness conversation."
+    },
+    {
+      "id": "search_geo",
+      "label": "Search / answer engines / GEO",
+      "weight": 5,
+      "keywords": ["google search", "ai overviews", "ai mode", "search generative", "sge", "perplexity", "answer engine", "chatgpt search", "seo", "geo", "zero-click", "search ranking", "bing", "google algorithm", "featured snippet", "llm optimization", "generative engine optimization"],
+      "dlg_angle": "DLG runs GEO audits; anything reshaping how answer engines surface brands directly affects client visibility and our audit methodology.",
+      "idea": "Flag for the GEO practice: does this shift the audit checklist, or is it a proof point to bring to clients worried about AI search visibility?"
+    },
+    {
+      "id": "social_platforms",
+      "label": "Social & content platforms",
+      "weight": 4,
+      "keywords": ["instagram", "tiktok", "youtube", "pinterest", "snap", "snapchat", "reddit", "meta", " x ", "twitter", "threads", "wechat", "weixin", "xiaohongshu", "rednote", "douyin", "bytedance", "creator", "influencer", "short video", "reels", "shorts", "social commerce", "livestream"],
+      "dlg_angle": "These are the paid and organic channels DLG plans and buys for luxury clients; feature, algorithm, and policy changes move media strategy and creator work.",
+      "idea": "Note any channel-planning or creator-strategy implication for current retainers; check if a client brief needs updating."
+    },
+    {
+      "id": "ecommerce_resale",
+      "label": "E-commerce, resale & commerce tech",
+      "weight": 3,
+      "keywords": ["e-commerce", "ecommerce", "shopify", "resale", "resell", "secondhand", "second-hand", "pre-owned", "the realreal", "vestiaire", "stockx", "farfetch", "mytheresa", "ssense", "net-a-porter", "checkout", "payments", "stripe", "buy now pay later", "marketplace", "dtc", "direct-to-consumer", "virtual try-on", "3d commerce"],
+      "dlg_angle": "LuxuryIQ tracks the luxury secondary market and pricing; commerce-platform and resale moves are direct signal for the product and for client retail strategy.",
+      "idea": "Check whether this is a data point LuxuryIQ should ingest or a resale-market trend worth a client note."
+    },
+    {
+      "id": "adtech_privacy",
+      "label": "Adtech, measurement & privacy",
+      "weight": 3,
+      "keywords": ["adtech", "ad tech", "advertising", "programmatic", "cookies", "third-party cookie", "privacy sandbox", "attribution", "measurement", "gdpr", "dma", "digital markets act", "data protection", "ad revenue", "retail media", "first-party data", "consent"],
+      "dlg_angle": "DLG plans and measures paid media; targeting, measurement, and regulation shifts change campaign design and what we can promise on attribution.",
+      "idea": "Assess impact on media measurement and targeting for luxury campaigns; is a client heads-up warranted?"
+    },
+    {
+      "id": "luxury_brands",
+      "label": "Named luxury / premium brands & groups",
+      "weight": 6,
+      "keywords": ["lvmh", "kering", "richemont", "hermes", "hermès", "chanel", "rolex", "cartier", "gucci", "louis vuitton", "dior", "prada", "burberry", "moncler", "tiffany", "patek philippe", "audemars piguet", "estee lauder", "estée lauder", "l'oreal", "l'oréal", "farfetch", "ferrari", "bentley", "aston martin"],
+      "dlg_angle": "A named client or peer brand in the tech news cycle is the highest-signal item we can surface, whether it is opportunity, competitive move, or risk.",
+      "idea": "Determine if this is a live client, a prospect, or a competitor, and whether it warrants an immediate internal flag."
+    },
+    {
+      "id": "china_apac",
+      "label": "China / APAC tech & commerce",
+      "weight": 3,
+      "keywords": ["alibaba", "tencent", "temu", "shein", "pinduoduo", "jd.com", "china", "chinese", "hong kong", "singapore", "india tech", "southeast asia", "tmall", "taobao"],
+      "dlg_angle": "APAC, and China specifically, is decisive for luxury demand; platform and macro-tech shifts there feed both client strategy and LuxuryIQ demand signals.",
+      "idea": "Note any APAC demand or channel implication for luxury clients with China exposure."
+    },
+    {
+      "id": "immersive",
+      "label": "Immersive / spatial / AR",
+      "weight": 2,
+      "keywords": ["augmented reality", " ar ", "virtual reality", " vr ", "vision pro", "spatial computing", "metaverse", "avatar", "3d model", "digital twin", "wearable", "smart glasses"],
+      "dlg_angle": "Immersive formats surface periodically in luxury brand experience work; worth tracking as an experiential channel, lower priority than core themes.",
+      "idea": "Park as a watch-item unless a luxury use case is explicit."
+    }
+  ],
+  "noise_keywords": ["semiconductor", "chip fab", "data center cooling", "kubernetes", "devops", "open source license", "gaming console", "cryptocurrency price", "bitcoin price", "layoffs at", "quarterly earnings beat"]
+}
