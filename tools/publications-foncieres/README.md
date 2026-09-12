@@ -17,23 +17,20 @@ Rappel utile: ces publications contiennent des noms et des montants. L'usage
 prévu ici est personnel. Rediffuser ces données, les recouper ou les exploiter
 commercialement relève de la protection des données et n'est pas le même sujet.
 
-## Installation (une seule fois)
+## Utilisation
+
+Une seule commande, sur ta propre machine:
 
 ```bash
 cd tools/publications-foncieres
-python3 -m venv venv
-./venv/bin/pip install -r requirements.txt
-./venv/bin/playwright install chromium
+./start.sh
 ```
 
-Si tu as déjà un Chrome ou un Chromium que tu veux réutiliser, saute la
-dernière ligne et indique son chemin: `export PF_CHROMIUM=/chemin/vers/chrome`.
+Au premier lancement le script installe ce qu'il faut et cherche un navigateur
+déjà présent (Chrome, Chromium ou Edge) avant d'en télécharger un. Ensuite il
+se contente de lancer la capture.
 
-## Utilisation
-
-```bash
-./venv/bin/python capture.py
-```
+Pour forcer un navigateur précis: `export PF_CHROMIUM="/chemin/vers/chrome"`.
 
 Un navigateur s'ouvre. Tu passes le captcha, tu lances ta recherche pour
 Corsier, tu laisses les résultats affichés, tu reviens dans le terminal et tu
@@ -55,16 +52,23 @@ qui évite parfois de refaire le captcha à chaque fois.
 
 ### Options utiles
 
+Tout argument passé à `start.sh` est transmis au script:
+
 ```bash
-./venv/bin/python capture.py --no-filter              # voir toutes les lignes lues
-./venv/bin/python capture.py --filter 'corsier|anieres'  # élargir à une autre commune
-./venv/bin/python capture.py --from-html data/captures/20260912-140000.html  # relire une archive
-./venv/bin/python capture.py --list                   # lister les captures passées
+./start.sh --no-filter                       # voir toutes les lignes lues
+./start.sh --filter 'corsier|anieres'        # élargir à une autre commune
+./start.sh --from-html data/captures/20260912-140000.html   # relire une archive
+./start.sh --list                            # lister les captures passées
 ```
 
 Le filtre par défaut est le mot « corsier » seul. Le code postal 1246 n'est
 volontairement pas dans le filtre: il apparaît aussi comme numéro de parcelle
 dans d'autres communes, ce qui ramènerait des voisins par erreur.
+
+## À lancer sur ta machine
+
+Ce script ouvre une fenêtre de navigateur que tu dois voir et utiliser. Il n'a
+donc de sens que sur ton propre ordinateur, pas dans une session distante.
 
 ## État actuel et étape suivante
 
